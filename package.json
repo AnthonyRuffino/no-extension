@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AnthonyRuffino/no-extension/issues"
   },
-  "homepage": "https://github.com/AnthonyRuffino/no-extension#readme"
+  "homepage": "https://github.com/AnthonyRuffino/no-extension#readme",
+  "dependencies": {
+    "fs": "0.0.2"
+  }
 }
