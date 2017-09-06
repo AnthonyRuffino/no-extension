@@ -44,4 +44,6 @@ class NoExtension {
 	}
 }
 
-exports.NoExtension = NoExtension;
+module.exports = function(dir){
+	return (req, res, next) => (new NoExtension(dir)).process(req, res, next);
+};
